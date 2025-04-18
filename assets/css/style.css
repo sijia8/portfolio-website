@@ -994,7 +994,7 @@ main {
 
     .project-img img {
         height: 15rem;
-        max-width: 100%;
+        width: 100%;
         background: var(--eerie-black-3);
         object-fit: contain;
         transition: var(--transition-1);
@@ -1112,14 +1112,14 @@ main {
     }
 
     .modal-img-box {
-        background: var(--bg-gradient-onyx);
+        align-content: center;
+        height: 100%;
         width: 100%;
         border-radius: 14px;
         overflow: hidden;
     }
 
     .modal-img-box img {
-        justify-self: center;
         width: 100%;
         height: auto;
         object-fit: contain;
@@ -1636,7 +1636,7 @@ main {
     }
 
     .modal-img-wrapper { 
-        margin: 5px 5px 2rem; } 
+        margin: 5px 5px 1rem; } 
 
     .modal-description > p {
         font-size: var(--fs-6);
